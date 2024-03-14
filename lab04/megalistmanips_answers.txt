@@ -1,0 +1,6 @@
+1.added save (sw) and restore (lw) operations for these registers to ensure their values are preserved.
+2.Adjusted the array offset calculation to ensure proper indexing of array elements during the iteration.
+3.Replaced the incorrect stack operations with the correct ones to avoid stack misalignment. 
+4.Replaced the incorrect load operation with the correct one (la a0, 8(s0)). 	 	 	
+5.Replaced the incorrect loading operation (lw a1, 0(s1)) with the correct one (mv a1, s1). 	
+6.Adjusted the save and restore operations to properly handle stack registers (ra, s0, s1).
